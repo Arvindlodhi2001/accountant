@@ -29,7 +29,7 @@ const AddBlog = () => {
           }
         );
         console.log(
-          "Data Post Successfully Hello I am Hay hello hello hay hello "
+          "Data Post Successfully Hello I am Hay hello hello hay hello hii "
         );
       }
     } catch (error) {
