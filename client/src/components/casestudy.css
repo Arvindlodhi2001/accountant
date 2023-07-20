@@ -1,0 +1,210 @@
+*{
+margin:0;
+padding:0;
+box-sizing:boder-box;
+}
+html,body{
+height:100%;
+width:100%;
+}
+#casestudy{
+    padding: 8vh 0;
+height:fit-content;
+width:100vw;
+/* background-color: red; */
+position:relative;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+gap: 2vh;
+}
+#casestudy>h1{
+    font-size: 5vh;
+}
+#casestudy>p{
+    width: 35vw;
+}
+.centercase{
+    height: 70vh;
+    width: 80vw;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.casecard{
+    height: 55vh;
+    width: 25vw;
+    position: relative;
+    /* background-color: green; */
+    border-radius: 2vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.pcdivimg{
+    height: 27vh;
+    width: 25vw;
+    overflow: hidden;
+}
+.pcdivimg>img{
+    height: 32vh;
+    width: 25vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    object-position: center;
+    object-fit: cover;
+}
+.pcdivimg>img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.pcdivtxt{
+    height: 28vh;
+    width: 22vw;
+    /* background-color: red; */
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pcdivtxt>h1{
+    font-size: 2vh;
+    width: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.centerlast{
+    height: 50vh;
+    width: 100vw;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerlp1{
+    height: 45vh;
+    width: 45vw;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.centerlp2{
+    height: 45vh;
+    width: 45vw;
+    /* background-color: green; */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    /* justify-content: space-around; */
+    position: relative;
+}
+.centerlp2>h1{
+    font-size: 5vh;
+}
+.clp{
+    height: 10vh;
+    width: 15vh;
+    border: 1px solid #3e8997;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clp>i{
+    font-size: 5vh;
+}
+.lastcardc{
+    height: 15vh;
+    width: 30vw;
+    display: flex;
+    gap: 2vh;
+    text-align: left;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+@media (max-width: 660px){
+    #casestudy{
+        height: fit-content;
+        width: 100vw;
+        /* background-color: blue; */
+    }
+    #casestudy>h1{
+        width: 80vw;
+        text-align: center;
+    }
+    #casestudy>p{
+        width: 80vw;
+    }
+    .centercase{
+        height: fit-content;
+        padding: 5vh 0;
+        display: flex;
+        gap: 4vh;
+        width: 80vw;
+        /* background-color: green; */
+        flex-direction: column;
+        position: relative;
+    }
+    .casecard{
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80vw;
+    }
+    .pcdivimg{
+        width: 80vw;
+    }
+    .pcdivimg>img{
+        width: 80vw;
+    }
+    .pcdivtxt{
+        width: 70vw;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        /* background-color: green; */
+    }
+    .pcdivtxt>h1{
+        width: 50vw;
+    }
+    .centerlast{
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .lastcardc{
+        height: 10vh;
+        width: 95vw;
+        /* background-color: aliceblue; */
+    }
+    .lastctxt>h2{
+        font-size: 2vh;
+    }
+    .lastctxt>p{
+        font-size: 1.5vh;
+    }
+    .centerlp2{
+        /* background-color: red; */
+        height: fit-content;
+        width: 90vw;
+        text-align: center;
+    }
+}

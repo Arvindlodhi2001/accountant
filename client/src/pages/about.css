@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Barlow+Condensed&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Great+Vibes&family=Heebo:wght@100&family=Mulish:wght@300&family=Petemoss&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.A-1{
+    background-image: url('https://gtkit.rometheme.pro/gaudit/wp-content/uploads/sites/20/2023/03/unity-of-business-team-LSJVEG5.jpg');
+    width: 99%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.A-1 h1{
+    display: flex;
+    position: relative;
+    top: 11px;
+    left: 10px;
+    font-size: 80px;
+    color: white;
+}
+.A-1 ul{
+    display: flex;
+}
+.A-1 ul li{
+       display: flex;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin-left: 30px;
+    flex-direction: row;
+    color: white;
+}
+.Second{
+    background-color: #F2F2F2;
+}
+.b-2{
+    position: relative;
+}
+.b-2 .img1{
+ width: 580px;
+ padding: 40px;
+ height: 700px;
+ border-radius: 10%;
+}
+.b-2 .img2{
+    width: 350px;
+    height: 240px;
+    bottom: 6%;
+    right: -5%;
+    z-index: 9;
+    position: absolute;
+    border-radius: 8%;
+}
+.b-3{
+    padding: 30px 22px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.b-4 h1{
+    font-size: 55px;
+    margin-left: 30px;
+}
+.b-4 h5{
+    color: blue;
+    margin-left:40px ;
+}
+.b-4 p{
+    font-size: 17px;
+    width: 100%;
+    color: gray;
+    word-spacing: 0.1rem;
+    margin-left: 40px;
+}
+.b-5{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.b-6{
+    line-height: 14px;
+}
+.b-6 p i{
+   font-size: 25px;
+   color: rgb(0, 162, 255);
+   font-weight: bold;
+}
+.b-6 h4{
+   font-weight: bold; 
+   margin-left: 8px;
+}
+.b-7{
+    line-height: 14px;
+}
+.b-7 h4{
+    font-weight: bold;
+    margin-left: 8px;
+}
+.b-6 p{
+    color: gray;
+    font-size: 16px;
+}
+.b-7 p i{
+font-size: 25px;
+   color: rgb(0, 195, 255);
+   font-weight: bold;
+}
+.b-7 p{
+   color: gray;
+    font-size: 16px; 
+}
+.b-8{
+    border-left: 2px solid rgb(0, 217, 255);
+    margin-left: 50px;
+}
+.b-8 p{
+    color: blue;
+    font-size: 23px;
+    font-family: 'Bacasime Antique', serif;
+    font-style: italic;
+    margin-left: 40px;
+}
+.b-9{
+    display: flex;
+    flex-direction: row;
+    margin-left:60px ;
+}  
+.b-10 img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}  
+.b-11{
+    margin-left: 10px;
+}
+.b-11 h4{
+    color: black;
+    font-weight: 600;
+}
+.b-11 p{
+    color: rgb(0, 204, 255);
+}
+.th-1{
+    position: relative;
+    /* top: 80px; */
+    margin-top: 40px;
+    background-image: url('https://gtkit.rometheme.pro/gaudit/wp-content/uploads/sites/20/2023/03/business-people-accounting-working-with-analysis-i-6BEKTNY.jpg');
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.th-2{
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 96vw;
+}
+.th-2 h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.th-2 h4{
+    color: white;
+}
+.th-3 h1 span{
+    font-size: 22px;
+    margin-top: -80px;
+}
+.th-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.fh-1{
+    padding: 20px;
+    width: 50%;
+    margin-top: 40px;
+}
+.fh-2{
+    width: 95%;
+    padding: 25px;
+}
+.fh-2 h5{
+    color: blue;
+}
+.fh-2 h1{
+    font-size: 48px;
+    color: black;
+}
+.fh-2 p{
+    font-size: 16px;
+    color: rgb(141, 120, 120);
+}
+.fh-3{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+.fh-3 i{
+    color: rgb(0, 195, 255);
+    font-size: 50px;
+    padding: 10px;
+}
+.fh-4{
+    display: flex;
+    flex-direction: row;
+}
+.fh-5{
+    display: flex;
+    flex-direction: row;
+}
+.fh-4 h3{
+ font-size: 25px;
+}
+.fh-5 h3{
+ font-size: 25px;
+}
+.fh-5 i{
+    font-size: 37px;
+}
+.fh-6{
+    padding: 22px;
+}
+.fh-8{
+    padding: 30px;
+}
+.fh-8 img{
+    width: 580px;
+    height: 600px;
+    border-radius: 8%;
+}
+.fh-7 h5{
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+     margin-top: 30px;
+}
+.fh-7{   
+    margin: 20px;
+}
+.fh-9{
+
+    width: 280px;
+    height: 180px;
+    text-align: center;
+    background-color:#006F93;
+    color: white;
+    border-radius: 10%;
+    margin-top: -120px;
+    margin-left: -50px;
+    z-index: 1;
+    position: absolute;
+}
+.fh-9 h1{
+    align-items: center;
+    margin-top: 40px;
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 98vw;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.fi-1{
+    border: 2px solid rgba(9, 178, 230, 0.479);
+    width: 30vw;
+    height: 40vh;
+    border-radius: 8%;
+    align-items: center;
+    padding: 52px 20px;
+}
+.fi-1 p{
+    color: gray;
+    font-size: 19px;
+    font-style: italic;
+}
+.fi-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fi-2  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.fi-2 i{
+    color: rgb(0, 225, 255);
+    font-size: 90px;
+    margin-top: -30px;
+}
+.fi-3{
+    margin-left: -30px;
+}
+.fi-3 p{
+    color: blue;
+}
+.sixth{
+    background-color: #006F93;
+    height: 400px;
+    margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sx-1{
+    width: 50%;
+    
+}
+
+
+.sx-2{
+    display: flex;
+    flex-direction: row;
+    width:90% ;
+    
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+}
+.sx-1 img{
+    width: 200px;
+    height: 90px;
+    padding: 10px;
+}
+.sx-1 img:hover{
+    margin-top: -20px;
+}
+.sixth2{
+    width: 48%;
+    
+    padding: 12px;
+    color: white;
+}
+.sixth2 h1{
+    font-size: 40px;
+    width: 60%;
+}
+.sixth2 h5{
+    color: white;
+}
+.sixth2 p{
+    width: 70%;
+}
+.seven{
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seven h6{
+ color: rgb(0, 153, 255);
+}
+.seven h1{
+    color: black;
+    font-size: 50px;
+  font-weight: 700;
+}
+.seven p{
+    color: gray;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.eight{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    border-radius: 8%;
+    flex-direction: row;
+    
+    width: 99%;
+}
+.eight1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+}
+.eg-1{
+    border-radius: 8%;
+    
+    overflow: hidden;
+}
+.eg-5 img{
+    width: 270px;
+    height: 330px;
+
+}
+
+.eg-6{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 162, 255);
+    height: 90px;
+}
+@media (max-width:600px){
+     .main{
+         overflow-x: hidden; 
+    
+    } 
+    .A-1{
+        width: 98%;
+        margin: 0px;
+    }
+    .A-1 h1{
+        font-size: 40px;
+        margin-left: 30px;
+    }
+   .Second{
+    height: 140%;
+   
+   }
+    .b-1{
+        height: 100vh;
+    }
+    .b-2 .img1{
+      padding: 10px;
+      width: 350px;
+      height: 400px;
+    }
+  .b-2 .img2{
+    width: 250px;
+    height: 200px;
+    bottom: -100px;    
+    right: 4%;
+}
+.b-3{
+    padding: 30px 22px;
+    position: relative;
+    top: 80px;
+    left: 10px;
+}
+.b-4 h5{
+    margin-left: 10px;
+}
+.b-4 h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.b-4 p{
+    font-size: 15px;
+    margin-left:10px ;
+}
+.b-5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.b-8{
+    margin: 3px;
+}
+
+.th-1{
+    height: 90vh;
+    text-align: center;
+
+}
+.th-2{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.th-7{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -140px;
+}
+.th-2 h1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fh-2{
+    width: 90vw;
+}
+.fh-3{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.fh-6{
+    padding: 0px;
+}
+.fh-8 img{
+    width: 340px;
+    height: 500px;
+    border-radius: 8%;
+    margin-left: 0px;
+}
+.fh-9{
+    width:280px ;
+   height:120px ;
+   margin-left: 30px;
+   margin-top: -80px;
+   border-radius: 8%;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+.fi-1{
+    width: 95%;
+    padding: 0px;
+    height: 32vh;
+    margin: 20px;
+    padding: 10px;
+}
+.fi-2 i{
+    font-size: 50px;
+    margin-top: -30px;
+}
+.fi-3 h5{
+    margin-left: 10px;
+}
+.fi-3 p{
+    margin-left: 10px;
+}
+
+
+.sixth{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 900px;
+    
+}
+.sx-2{
+    display: flex;
+    flex-direction: column;
+}
+.sx-1 img{
+    width: 230px;
+    height: 110px;
+    padding: 20px 10px;
+}
+.sixth2{
+    width: 90%;
+    padding: 10px;
+   margin-left: 40px;
+}
+
+.sixth2 h5{
+    margin-left: 100px;
+}
+.sixth2 p{
+    width: 98%;
+    margin-left: 10px;
+}
+.sixth2 h1{
+    font-size: 27px;
+    display: flex;
+    text-align: center;
+    width: 95%;
+
+ padding: 0px;
+}
+
+
+.seven h1{
+    font-size: 30px;
+}
+.seven p{
+    width: 80%;
+}
+.eight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   padding: 20px;
+   height: 90%;
+   width: 100%;
+}
+.eight1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.eg-1{
+    margin: 20px;
+}
+.eg-6{
+    width: 81%;
+}
+}
+
+@media(min-width:600px)and (max-width:1100px){
+     
+ .main{
+    overflow-x: hidden;
+ }
+
+    .th-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        width: 98%;
+        margin-top: 50px;
+    }
+    .th-7{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
+        width: 98%;
+    }
+    .four{
+        display: flex;
+        flex-direction: column;
+    }
+    .fh-1{
+        width: 100%;
+    }
+    .five{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;   
+    margin: 10px;
+    height: 90vh;
+    padding: 30px;
+}
+.fi-1{
+    width: 60%;
+    height: 300px;
+   
+}
+.sixth{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 99%;
+}
+.sx-1{
+    margin-left: -80px;
+    width: 80%;
+    padding: 20px 10px;
+    
+}
+.sixth2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+.sixth2 h5{
+    margin-left: -50px;
+}
+.sixth2 h1{
+    width: 89%;
+    margin-left: 100px;
+}
+.sixth2 p{
+    width: 70%;
+}
+.eight{
+    display: flex;
+    flex-direction: column;
+}
+.eight1{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: space-around;
+    height: 98%;
+    margin-top: 20px;
+}
+.seven p{
+    width: 94%;
+}
+
+}

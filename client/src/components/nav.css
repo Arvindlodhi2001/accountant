@@ -1,0 +1,137 @@
+*{
+margin:0;
+padding:0;
+box-sizing:boder-box;
+}
+html,body{
+height:100%;
+width:100%;
+}
+#Nav{
+height:100%;
+width:100%;
+position:relative;
+}
+.nav1{
+    height: 8vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cnav1{
+    height: 5vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    width: 12vw;
+}
+.cnav1>h4{
+    width: 35vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    /* background-color: red ; */
+}
+.logo{
+    height: 3vh;
+    width: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.nav2{
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006f93;
+
+}
+.cnav2{
+    color: white;
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cnp1{
+    height: 8vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cnp1>a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+.cnp2{
+    height: 8vh;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+}
+.cnp2>i{
+    font-size: 3vh;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #Nav{
+        height: 100%;
+    }
+    .nav1{
+        display:none;
+    }
+    .cnav1>h4{
+        font-size: 2.5vw;
+        width: 30vw;
+        background-color: green;
+    }
+    .navlogo{
+        display: none;
+    }
+    .nav2{
+        height: 100%;
+    }
+    .cnav1{
+        font-size: 2vh;
+    }
+
+    #menu-btn:checked ~ .cnp1{
+        width: 100%;
+        padding: 20px;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+        position: absolute;
+        z-index: 9;
+        background-color: #006f93;
+    }
+    .cnp1{
+        display: none;
+    }
+    .cnp2{
+        display:none;
+    }
+  }
