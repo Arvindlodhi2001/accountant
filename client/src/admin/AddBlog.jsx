@@ -28,7 +28,9 @@ const AddBlog = () => {
             },
           }
         );
-        console.log("Data Post Successfully Hello I am Hay hello hello hay ");
+        console.log(
+          "Data Post Successfully Hello I am Hay hello hello hay hello "
+        );
       }
     } catch (error) {
       console.log("something error in axios and url --->", error);
